@@ -5,6 +5,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import * as styles from "../components/index.module.css"
+import Tour from "../components/tour"
 
 const links = [
   {
@@ -69,8 +70,11 @@ const moreLinks = [
 
 const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=default-starter`
 
+
+
 const IndexPage = () => (
   <Layout>
+    <Tour />
     <div className={styles.textCenter}>
       <StaticImage
         src="../images/example.png"
