@@ -9,20 +9,12 @@ import * as styles from "../components/index.module.css"
 const IndexPage = () => (
   <Layout>
     <div className={styles.textCenter}>
-    <h1>
+      <h1>
         Charlie Cook's Favourite Book
       </h1>
       <h2>
-        Coming to the <a href="https://www.littleangeltheatre.com/" style={{"border-radius":"4px","background":"#FE552E", "color":"white", "padding":"5px"}}>Little Angel Theatre</a> in 2023 / 2024
+        Coming to the <a href="https://www.littleangeltheatre.com/" className={"button_lat"}>Little Angel Theatre</a> and across the UKin 2023 / 2024
       </h2>
-      <StaticImage
-        src="../images/charliecook.png"
-        loading="eager"
-        formats={["auto", "webp", "avif"]}
-        alt=""
-        style={{ marginBottom: `var(--space-3)` }}
-      />
-
     </div>
   </Layout>
 )

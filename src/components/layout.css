@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+
 :root {
   --border-radius: 4px;
   --color-text: #333;
@@ -42,8 +44,9 @@ body {
   font-weight: normal;
   margin: 0;
   word-wrap: break-word;
-  background: #fad640;
-  font-family: 'DM Sans', sans-serif;
+  background: #fad640;  
+  font-family: 'Caudex',Georgia,"Times New Roman",serif;
+  font-family: 'Vidaloka', serif;
 }
 a {
   background-color: transparent;
@@ -59,6 +62,24 @@ a:hover {
   outline-width: 0;
   text-decoration: none;
 }
+
+.button_lat{
+  display:inline-block;
+  border-radius:100px;
+  background:#FE552E;
+  color:white;
+  padding:5px 20px;
+}
+
+.button_lat:hover{
+  background:hsl(11, 100%, 40%);
+  transition: 0.2s;
+}
+
+main{
+  width: 100%;
+}
+
 abbr[title] {
   border-bottom: 1px dotted hsla(0, 0%, 0%, 0.5);
   cursor: help;
@@ -78,6 +99,7 @@ h1 {
   padding: 0;
   line-height: var(--line-height-dense);
   letter-spacing: -0.01em;
+  font-size: 40px;
 }
 h1 > b {
   color: var(--color-primary);
