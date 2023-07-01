@@ -13,7 +13,7 @@ const IndexPage = () => (
         Charlie Cook's Favourite Book
       </h1>
       <h2>
-        Coming to the <a href="https://www.littleangeltheatre.com/" className={"button_lat"}>Little Angel Theatre</a> and across the UKin 2023 / 2024
+        Coming to the <a href="https://www.littleangeltheatre.com/" className={"button_lat"}>Little Angel Theatre</a> and across the UK in 2023 / 2024
       </h2>
     </div>
   </Layout>
