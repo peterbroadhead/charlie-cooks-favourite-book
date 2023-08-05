@@ -4,7 +4,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import * as styles from "../components/index.module.css"
-// import Tour from "../components/tour"
+//import Tour from "../components/tour"
 
 const IndexPage = () => (
   <Layout>

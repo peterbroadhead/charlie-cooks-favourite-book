@@ -16,7 +16,6 @@ const Tour = () => {
     `)
     return (
         <div>
-            <h1>hello from tour page</h1>
             {data.allContentfulTourDates.edges.map((edge) => {     
                 return <h1 key={edge.node.id}>{edge.node.location}</h1>
              })}
