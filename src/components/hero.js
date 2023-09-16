@@ -9,7 +9,7 @@ const Hero = () =>{
                 <p className="pb-5 text-3xl ">A musical adaptation of the best-selling book by</p>
                 <StaticImage src="../images/cc-author-text.png" height={100} alt="Charlie Cook's Favourite Book Author"/>
             </div>            
-            <StaticImage src="../images/wobble.png" className="absolute z-10 bottom-0" alt="Charlie Cook's Favourite Book"/>
+            <StaticImage src="../images/wobble.png" className="!absolute z-10 bottom-0" alt="Charlie Cook's Favourite Book"/>
             <StaticImage src="../images/cc-hero-bg-no-sky.png" className="" alt="Charlie Cook's Favourite Book"/>
         </div>
     )
