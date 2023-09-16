@@ -1012,6 +1012,10 @@ p{
     display: none;
   }
 
+  .md\:\!hidden {
+    display: none !important;
+  }
+
   .md\:basis-full {
     flex-basis: 100%;
   }
