@@ -24,7 +24,7 @@ const Tour = () => {
             {data.allContentfulTourDates.edges.map((edge) => {                   
                 let startDate = new Date(edge.node.startDate).toLocaleDateString('en-GB', {day: 'numeric', month: 'short', year: 'numeric'});
                 let endDate = new Date(edge.node.endDate).toLocaleDateString('en-GB', {day: 'numeric', month: 'short', year: 'numeric'});                
-                return <div className="bg-light-teal p-5 rounded-xl flex flex-wrap font-serif shadow-xl" key={edge.node.id}>
+                return <div className="bg-light-teal p-5 rounded-xl flex flex-wrap font-serif shadow-xl mb-10" key={edge.node.id}>
                             <h3 className="basis-full text-4xl font-axel text-teal m-0">{edge.node.location}</h3>
                             <p className="basis-full font-bold">{edge.node.theatre}</p>
                             <p className="basis-full m-0 text-light-slate">{startDate} - {endDate}</p>
