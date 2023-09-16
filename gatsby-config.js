@@ -7,7 +7,7 @@ require("dotenv").config({
 module.exports = {
   siteMetadata: {
     title: `Charlie Cook's Favourite Book`,
-    description: `Book your ticket for Charlie Cook's Favourite Book at The Little Angel Theatre now! `,
+    description: `Book your ticket for the Charlie Cook's Favourite Book show at a theatre near you! `,
     author: `Peter Broadhead`,
     siteUrl: `https://charliecooksfavouritebook.com/`,
   },
@@ -35,7 +35,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `gatsby-starter-default`,
-        short_name: `starter`,
+        short_name: `Charlie Cook`,
         start_url: `/`,
         background_color: `#663399`,
         display: `minimal-ui`,
