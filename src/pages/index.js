@@ -1,24 +1,25 @@
 import * as React from "react"
-// import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import * as styles from "../components/index.module.css"
-//import Tour from "../components/tour"
+import Tour from "../components/tour"
 
 const IndexPage = () => (
+  <>
   <Layout>
-    <div className={styles.textCenter}>
-      <h1>
-        Charlie Cook's Favourite Book
-      </h1>
-      <h2>
-        Coming to the <a href="https://www.littleangeltheatre.com/" className={"button_lat"}>Little Angel Theatre</a> and across the UK in 2023 / 2024
-      </h2>
+    <div>
+      <p><span className="text-3xl font-axel mb-5 inline-block">Charlie loves reading.</span><br></br> Especially books about pirates. But his sister hates it – it’s boring! Can Charlie convince her that reading is fun? Perhaps if she read a book about a pirate, who is reading a book about Goldilocks, who is reading a book about a knight…</p>      
+      <p>Come and delve into a range of books with Charlie Cook, brought to life with puppetry and enchanting songs, and perhaps you will be able to help his sister discover the wonderful world inside a book…</p>      
+      <hr className="mt-20 pl-0 border-t-4 border-light-teal"></hr>
+      <h2 className="text-3xl font-axel p-10 pl-0 pb-0 mb-5">Book your tickets today!</h2>
+      <h3 className="italic text-light-slate mb-5">Embark on your adventure!</h3>      
+      <Tour></Tour>
+      <h2>A Little Angel Theatre, Lowry and Rose Theatre co-production</h2>
+      <p className="font-axel">Aimed at ages 3-8</p>
     </div>
   </Layout>
+  </>
 )
 
-export const Head = () => <Seo title="Home" />
+export const Head = () => <Seo title="Home" description="Official Website for the musical Charlie Cooks Favourite Book"/>
 
 export default IndexPage

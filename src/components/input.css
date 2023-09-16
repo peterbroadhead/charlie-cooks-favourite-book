@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+    @import url('https://fonts.googleapis.com/css?family=Caudex:400,400italic,700,700italic');
+
+    @font-face{
+        font-family:'AxelSchefflerSans-Regular';
+        src:url("../src/fonts/AxelSchefflerSans-Regular_gdi.eot");
+        src:url("../src/fonts/AxelSchefflerSans-Regular_gdi.eot?#iefix") format("embedded-opentype"),url("../src/fonts/AxelSchefflerSans-Regular_gdi.woff") format("woff"),url("../src/fonts/AxelSchefflerSans-Regular_gdi.svg#AxelSchefflerSans-Regular");
+    }    
+
+    html{
+        background: #fffdf7;
+        background: #caf5ff;
+        background: hsl(191 100% 95% / 1);
+    }
+
+    a{
+        color: hsl(189 62% 35%);    
+        font-family:'AxelSchefflerSans-Regular', 'sans';
+    }
+
+    a:hover{
+        color: #ffc231;
+        transition: ease 500ms;
+    }
+
+    main{
+        min-height: 50vh;
+    }
+
+    h2{
+        margin-bottom: 40px;
+    }
+
+    h3{
+        margin: 40px 0 10px 0;
+        font-weight: bold;
+    }
+
+    p{
+        margin:20px 0 20px;        
+    }
+    
+  }
