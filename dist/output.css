@@ -969,6 +969,18 @@ p{
     visibility: hidden;
   }
 
+  .sm\:inline-block {
+    display: inline-block;
+  }
+
+  .sm\:inline {
+    display: inline;
+  }
+
+  .sm\:\!hidden {
+    display: none !important;
+  }
+
   .sm\:basis-full {
     flex-basis: 100%;
   }
