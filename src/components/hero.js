@@ -11,7 +11,7 @@ const Hero = () =>{
             </div>            
             <StaticImage src="../images/wobble.png" className="hidden sm:inline-block !absolute z-10 bottom-0" alt="Charlie Cook's Favourite Book"/>
             <StaticImage src="../images/cc-hero-bg-no-sky.png" className="w-200 hidden sm:inline-block" alt="Charlie Cook's Favourite Book"/>
-            <StaticImage src="../images/charliecook-walk.png" className="w-200 inline-block sm:!hidden" alt="Charlie Cook's Favourite Book"/>
+            <StaticImage src="../images/charliecook-walk.png" className="w-200 inline-block hidden" alt="Charlie Cook's Favourite Book"/>
         </div>
     )
 }

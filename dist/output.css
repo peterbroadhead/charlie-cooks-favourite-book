@@ -981,6 +981,10 @@ p{
     display: none !important;
   }
 
+  .sm\:hidden {
+    display: none;
+  }
+
   .sm\:basis-full {
     flex-basis: 100%;
   }
@@ -1051,6 +1055,10 @@ p{
 
   .md\:p-10 {
     padding: 2.5rem;
+  }
+
+  .md\:pl-0 {
+    padding-left: 0px;
   }
 
   .md\:text-center {
