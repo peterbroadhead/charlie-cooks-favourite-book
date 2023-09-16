@@ -725,8 +725,17 @@ p{
   width: 100%;
 }
 
+.w-max {
+  width: -moz-max-content;
+  width: max-content;
+}
+
 .flex-1 {
   flex: 1 1 0%;
+}
+
+.flex-grow {
+  flex-grow: 1;
 }
 
 .basis-full {
@@ -975,6 +984,10 @@ p{
     margin-left: 5rem;
   }
 
+  .md\:flex {
+    display: flex;
+  }
+
   .md\:basis-full {
     flex-basis: 100%;
   }
@@ -998,6 +1011,20 @@ p{
 
   .md\:p-10 {
     padding: 2.5rem;
+  }
+
+  .md\:text-center {
+    text-align: center;
+  }
+
+  .md\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+
+  .md\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 }
 
