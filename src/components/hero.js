@@ -5,12 +5,13 @@ const Hero = () =>{
     return (
         <div className="relative bg-sky-blue text-center text-xl font-axel pb-10">
             <div className=" z-10 w-full top-0 drop-shadow-md">
-                <h2 className="p-10 text-3xl md:text-7xl m-0">Charlie Cook's Favourite Book</h2>               
-                <p className="pb-5 text-1xl md:text-3xl ">A musical adaptation of the best-selling book by</p>
+                <h2 className="p-10 text-3xl md:text-7xl m-0 hidden md:block">Charlie Cook's Favourite Book</h2>               
+                <p className="p-5 text-1xl md:text-3xl ">A musical adaptation of the best-selling book by</p>
                 <StaticImage src="../images/cc-author-text.png" height={100} alt="Charlie Cook's Favourite Book Author"/>
             </div>            
-            <StaticImage src="../images/wobble.png" className="!absolute z-10 bottom-0" alt="Charlie Cook's Favourite Book"/>
-            <StaticImage src="../images/cc-hero-bg-no-sky.png" className="" alt="Charlie Cook's Favourite Book"/>
+            <StaticImage src="../images/wobble.png" className="hidden md:inline !absolute z-10 bottom-0" alt="Charlie Cook's Favourite Book"/>
+            <StaticImage src="../images/cc-hero-bg-no-sky.png" className="w-200 hidden md:inline-block" alt="Charlie Cook's Favourite Book"/>
+            <StaticImage src="../images/charliecook-walk.png" className="w-200 md:hidden" alt="Charlie Cook's Favourite Book"/>
         </div>
     )
 }

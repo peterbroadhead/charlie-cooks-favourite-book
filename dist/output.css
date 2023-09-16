@@ -708,6 +708,10 @@ p{
   display: flex;
 }
 
+.hidden {
+  display: none;
+}
+
 .h-0 {
   height: 0px;
 }
@@ -719,6 +723,10 @@ p{
 .h-fit {
   height: -moz-fit-content;
   height: fit-content;
+}
+
+.h-3 {
+  height: 0.75rem;
 }
 
 .w-full {
@@ -984,8 +992,24 @@ p{
     margin-left: 5rem;
   }
 
+  .md\:block {
+    display: block;
+  }
+
+  .md\:inline-block {
+    display: inline-block;
+  }
+
+  .md\:inline {
+    display: inline;
+  }
+
   .md\:flex {
     display: flex;
+  }
+
+  .md\:hidden {
+    display: none;
   }
 
   .md\:basis-full {
