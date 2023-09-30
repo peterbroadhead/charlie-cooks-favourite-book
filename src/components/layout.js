@@ -24,8 +24,7 @@ const Layout = ({ children }) => {
             <Link to="mailto:charliecook@littleangeltheatre.com" target="_blank" className="font-axel">charliecook@littleangeltheatre.com</Link>
             <br></br>
             <Link to="https://www.peterbroadhead.co.uk/" target="_blank" className="mt-5 font-axel text-sm text-slate inline-block">Site by Peter</Link>
-          </p>
-          
+          </p>          
           <p className="text-sm text-light-slate">This play is based on the original book Charlie Cook’s Favourite Book<br></br>Text © Julia Donaldson 2005<br></br>Illustrations © Axel Scheffler 2005<br></br>Published by Macmillan Children’s Books © 2005</p>    
         </footer>
       </div>

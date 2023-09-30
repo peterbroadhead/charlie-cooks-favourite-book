@@ -10,7 +10,6 @@ const Hero = () =>{
                 <StaticImage src="../images/cc-author-text.png" height={100} alt="Charlie Cook's Favourite Book Author"/>
             </div>            
             <div className="hidden sm:inline-block">
-                <StaticImage src="../images/wobble.png" className="!absolute z-10 bottom-0" alt="Charlie Cook's Favourite Book"/>
                 <StaticImage src="../images/cc-hero-bg-no-sky.png" className="w-200" alt="Charlie Cook's Favourite Book"/>
             </div>
             <div className="inline-block sm:hidden">
