@@ -1,6 +1,8 @@
 import * as React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import { StaticImage } from "gatsby-plugin-image"
+import { Link } from "gatsby"
 
 const AboutPage = () => (
   <Layout>
@@ -22,7 +24,22 @@ const AboutPage = () => (
           <li>Stage managed by TBC</li>
           <li>Performed by TBC</li>
         </ul>
-      </div>
+      </div>    
+      <p className="font-axel mt-20 text-5xl p-10 pl-0 pb-5">Special Thanks</p>
+      <h2 className="text-light-slate italic">With thanks to the following organisations and individuals for their support with the creation and development of this project:</h2>    
+        <ul>
+          <li><Link to="https://londoncf.org.uk/grants/cockayne-grants-for-the-arts" target="_blank">Cockayne Grants for the Arts</Link></li>
+          <li><Link to="https://londoncf.org.uk/" target="_blank">The London Community Foundation</Link></li>
+          <li><Link to="https://www.panmacmillan.com/mcb" target="_blank">Macmillan Children’s Books</Link></li>
+          <li><Link to="" target="_blank">Molecule Theatre</Link></li>
+          <li><Link to="https://unitytheatre.org.uk/" target="_blank">Unity Theatre Trust</Link></li>   
+          <li><Link to="https://rvhf.org/" target="_blank">Royal Victoria Hall</Link></li>        
+        </ul>
+        <div className="p-10 bg-white inline-block mt-10 rounded-md shadow-lg">
+          <Link to="https://rvhf.org/" target="_blank">
+            <StaticImage src="../images/RVH.jpg" height={100} alt="Charlie Cooks Favourite Book" />
+          </Link>
+        </div>
     </div>
   </Layout>
 )

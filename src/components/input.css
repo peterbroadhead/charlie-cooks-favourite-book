@@ -23,9 +23,11 @@
         font-family:'AxelSchefflerSans-Regular', 'sans';
     }
 
-    a:hover{
+    a:hover, svg:hover{
         color: #ffc231;
         transition: ease 500ms;
+        fill: #ffc231;
+
     }
 
     main{
@@ -45,4 +47,4 @@
         margin:20px 0 20px;        
     }
     
-  }
+}

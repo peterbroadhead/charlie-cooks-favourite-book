@@ -3,6 +3,8 @@ require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
 })
 
+// npx tailwindcss -i ./src/components/input.css -o ./dist/output.css --watch
+
 
 module.exports = {
   siteMetadata: {
