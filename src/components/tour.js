@@ -5,8 +5,12 @@ import { Link } from "gatsby"
 let currentMonth = "";
 
 function showCard(location, theatre, startDate, endDate, ticketLink) {
-    return <div className="bg-light-teal p-5 rounded-xl sm:mr-10 w flex flex-wrap font-serif shadow-xl mb-10" >
-        <h3 className="basis-full text-4xl font-axel text-teal m-0">{location} <span className="text-slate text-2xl">{theatre}</span> <Link target="_blank" rel="noopener" to={ticketLink} className="float-right text-lg bg-orange shadow-md hover:bg-slate text-slate p-3 pl-5 pr-5  rounded-xl">Book Now</Link></h3>
+    return <div className="bg-light-teal p-5 rounded-xl flex flex-wrap font-serif shadow-xl mb-10" >
+        <h3 className="basis-full text-4xl font-axel text-teal m-0 flex flex-wrap sm:relative sm:items-baseline">
+            <span className="basis-full mb-5 mr-5 sm:basis-auto sm:mb-0">{location}</span> 
+            <span className="mb-5 basis-full text-slate text-2xl mr-5 sm:mb-0 sm:basis-auto">{theatre}</span> 
+            <Link target="_blank" rel="noopener" to={ticketLink} className="sm:ml-auto sm:mb-0 mb-5 float-right text-lg bg-orange shadow-md hover:bg-slate text-slate p-3 pl-5 pr-5  rounded-xl">Book Now</Link>
+        </h3>
         <p className="basis-full m-0 font-bold"> {startDate} - {endDate}</p>
     </div>
 }
@@ -16,17 +20,17 @@ const Tour = () => {
         query MyQuery {
             allContentfulTourDates(sort: {startDate: ASC}) {
                 edges {
-                node {
-                    id
-                    location                    
-                    endDate
-                    startDate
-                    ticketLink
-                    theatre                
-                }
+                    node {
+                        id
+                        location                    
+                        endDate
+                        startDate
+                        ticketLink
+                        theatre                
+                    }
                 }
             }
-            }
+        }
     `)
     return (
         <div className="mb-10 flex flex-wrap">  

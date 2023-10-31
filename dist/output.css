@@ -697,6 +697,10 @@ p{
   margin-top: 1.75rem;
 }
 
+.mr-5 {
+  margin-right: 1.25rem;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -766,6 +770,11 @@ p{
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-red-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 242 242 / var(--tw-bg-opacity));
 }
 
 .p-10 {
@@ -919,8 +928,16 @@ p{
 }
 
 @media (min-width: 640px) {
-  .sm\:mr-10 {
-    margin-right: 2.5rem;
+  .sm\:relative {
+    position: relative;
+  }
+
+  .sm\:ml-auto {
+    margin-left: auto;
+  }
+
+  .sm\:mb-0 {
+    margin-bottom: 0px;
   }
 
   .sm\:inline-block {
@@ -931,8 +948,16 @@ p{
     display: none;
   }
 
+  .sm\:basis-auto {
+    flex-basis: auto;
+  }
+
   .sm\:basis-full {
     flex-basis: 100%;
+  }
+
+  .sm\:items-baseline {
+    align-items: baseline;
   }
 }
 
