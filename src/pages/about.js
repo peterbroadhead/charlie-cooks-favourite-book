@@ -16,13 +16,13 @@ const AboutPage = () => (
         <h3 className="mt-5">Credits</h3>
         <ul>
           <li>Adapted by Barb Jungr and Samantha Lane</li>
-          <li>Director – Samantha Lane</li>
-          <li>Composer/Lyrics – Barb Jungr</li>
-          <li>Set/Costume – Ellie Mills</li>
-          <li>Puppets – Maia Kirkman-Richards</li>
-          <li>Lighting – Sherry Coenen</li>
-          <li>Stage managed by TBC</li>
-          <li>Performed by TBC</li>
+          <li>Directed by Samantha Lane</li>
+          <li>Music & Lyrics composed by Barb Jungr</li>
+          <li>Set & costumes designed by Ellie Mills</li>
+          <li>Puppets designed by Maia Kirkman-Richards</li>
+          <li>Lighting Designed by Sherry Coenen</li>
+          <li>Stage managed by Olivia Preston</li>
+          <li>Performed by (COMING SOON)</li>
         </ul>
       </div>    
       <p className="font-axel mt-20 text-5xl p-10 pl-0 pb-5">Special Thanks</p>

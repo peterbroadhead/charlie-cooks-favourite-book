@@ -38,14 +38,11 @@ const CastPage = () => (
           <Link className="flex" to="https://www.facebook.com/georgie.samuels" target="_blank">
             <FaFacebookSquare size={50}/>
           </Link>
-          {/*<Link className="flex" to="https://www.twitter.com/georgina.samuels/" target="_blank">
-            <FaTwitterSquare size={50}/>
-          </Link>*/}
         </p>
       </div>
 
       <div className="bg-light-teal p-10 mt-20 rounded-xl shadow-lg">
-        <StaticImage src="../images/freya.jpg" height={200} className="mb-5 float-left mr-10 rounded-lg" alt="freya Headshot"/>
+        <StaticImage src="../images/Freya.jpg" height={200} className="mb-5 float-left mr-10 rounded-lg" alt="freya Headshot"/>
         <h3 className="m-0 font-axel text-teal text-2xl">Freya Stephenson – Izzy</h3>
         <p>Freya is a performer from Kent who loves cups of tea and reading! </p>
         <p>Training: BA Musical Theatre Performance, University of Chichester.</p>
