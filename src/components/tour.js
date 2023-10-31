@@ -34,26 +34,30 @@ const Tour = () => {
                 let startDate = new Date(edge.node.startDate).toLocaleDateString('en-GB', {day: 'numeric', month: 'long'});
                 let endDate = new Date(edge.node.endDate).toLocaleDateString('en-GB', {day: 'numeric', month: 'long'});                                
                 let showMonth = new Date(edge.node.startDate).toLocaleDateString('en-GB', {month: 'long'});
-                let showYear = new Date(edge.node.startDate).toLocaleDateString('en-GB', {year: 'numeric'});                                
-                if (currentMonth === "") {   
-                    {currentMonth = showMonth}                                 
-                    return <div className="sm:basis-full" key={edge.node.id}>
-                        <h2 className="text-3xl font-bold">{showMonth + " " + showYear}</h2>
-                        {showCard(edge.node.location, edge.node.theatre, startDate, endDate, edge.node.ticketLink)}
-                    </div>
-                }
-                else if (currentMonth !== showMonth) { 
-                    {currentMonth = showMonth}                                   
-                    return <div className="sm:basis-full" key={edge.node.id}>
-                        <h2 className="text-3xl font-bold mt-1 pt-5 border-t-4 border-light-teal">{showMonth + " " + showYear}</h2>
-                        {showCard(edge.node.location, edge.node.theatre, startDate, endDate, edge.node.ticketLink)}
-                    </div>
-                }
-                else if (currentMonth === showMonth) { 
-                    {currentMonth = showMonth}                                   
-                    return <div className="sm:basis-full" key={edge.node.id}>
-                        {showCard(edge.node.location, edge.node.theatre, startDate, endDate, edge.node.ticketLink)}
-                    </div>
+                let showYear = new Date(edge.node.startDate).toLocaleDateString('en-GB', {year: 'numeric'});
+                let todaysDate = new Date().getTime();
+                let endDateTime = new Date(edge.node.endDate).getTime();
+                if (todaysDate < endDateTime ){
+                    if (currentMonth === "") {   
+                        {currentMonth = showMonth}                                 
+                        return <div className="sm:basis-full" key={edge.node.id}>
+                            <h2 className="text-3xl font-bold">{showMonth + " " + showYear}</h2>
+                            {showCard(edge.node.location, edge.node.theatre, startDate, endDate, edge.node.ticketLink)}
+                        </div>
+                    }
+                    else if (currentMonth !== showMonth) { 
+                        {currentMonth = showMonth}                                   
+                        return <div className="sm:basis-full" key={edge.node.id}>
+                            <h2 className="text-3xl font-bold mt-1 pt-5 border-t-4 border-light-teal">{showMonth + " " + showYear}</h2>
+                            {showCard(edge.node.location, edge.node.theatre, startDate, endDate, edge.node.ticketLink)}
+                        </div>
+                    }
+                    else if (currentMonth === showMonth) { 
+                        {currentMonth = showMonth}                                   
+                        return <div className="sm:basis-full" key={edge.node.id}>
+                            {showCard(edge.node.location, edge.node.theatre, startDate, endDate, edge.node.ticketLink)}
+                        </div>
+                    }
                 }
              })}
         </div>
