@@ -677,6 +677,10 @@ p{
   margin-right: 0.625rem;
 }
 
+.mr-5 {
+  margin-right: 1.25rem;
+}
+
 .mt-1 {
   margin-top: 0.25rem;
 }
@@ -695,10 +699,6 @@ p{
 
 .mt-7 {
   margin-top: 1.75rem;
-}
-
-.mr-5 {
-  margin-right: 1.25rem;
 }
 
 .inline-block {
@@ -770,11 +770,6 @@ p{
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-red-50 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(254 242 242 / var(--tw-bg-opacity));
 }
 
 .p-10 {
@@ -932,12 +927,12 @@ p{
     position: relative;
   }
 
-  .sm\:ml-auto {
-    margin-left: auto;
-  }
-
   .sm\:mb-0 {
     margin-bottom: 0px;
+  }
+
+  .sm\:ml-auto {
+    margin-left: auto;
   }
 
   .sm\:inline-block {

@@ -15,6 +15,14 @@ function showCard(location, theatre, startDate, endDate, ticketLink) {
     </div>
 }
 
+function noShowsCard() {
+    return <div className="bg-light-teal p-5 rounded-xl flex flex-wrap font-serif shadow-xl mb-10" >
+        <h3 className="basis-full text-4xl font-axel text-teal m-0 flex flex-wrap sm:relative sm:items-baseline">
+            <span className="basis-full mb-5 mr-5 sm:basis-auto sm:mb-0">Coming soon...</span>                 
+        </h3>
+    </div>
+}
+
 const Tour = () => {
     const data = useStaticQuery(graphql`
         query MyQuery {
@@ -43,26 +51,27 @@ const Tour = () => {
                 let endDateTime = new Date(edge.node.endDate).getTime();
                 if (todaysDate < endDateTime ){
                     if (currentMonth === "") {   
-                        {currentMonth = showMonth}                                 
+                        currentMonth = showMonth;                                
                         return <div className="sm:basis-full" key={edge.node.id}>
                             <h2 className="text-3xl font-bold">{showMonth + " " + showYear}</h2>
                             {showCard(edge.node.location, edge.node.theatre, startDate, endDate, edge.node.ticketLink)}
                         </div>
                     }
                     else if (currentMonth !== showMonth) { 
-                        {currentMonth = showMonth}                                   
+                        currentMonth = showMonth;                                   
                         return <div className="sm:basis-full" key={edge.node.id}>
                             <h2 className="text-3xl font-bold mt-1 pt-5 border-t-4 border-light-teal">{showMonth + " " + showYear}</h2>
                             {showCard(edge.node.location, edge.node.theatre, startDate, endDate, edge.node.ticketLink)}
                         </div>
                     }
                     else if (currentMonth === showMonth) { 
-                        {currentMonth = showMonth}                                   
+                        currentMonth = showMonth;                                   
                         return <div className="sm:basis-full" key={edge.node.id}>
                             {showCard(edge.node.location, edge.node.theatre, startDate, endDate, edge.node.ticketLink)}
                         </div>
                     }
                 }
+                return noShowsCard();
              })}
         </div>
     )

@@ -5,7 +5,6 @@ import "/dist/output.css"
 import { Link } from "gatsby"
 import { FaInstagramSquare } from "@react-icons/all-files/fa/FaInstagramSquare";
 import { FaFacebookSquare } from "@react-icons/all-files/fa/FaFacebookSquare";
-import { FaTablet } from "@react-icons/all-files/fa/FaTablet";
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
