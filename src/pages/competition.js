@@ -6,7 +6,7 @@ const CompetitionPage = () => (
   <Layout>
     <div className="text-slate">
       <h1 className="text-5xl font-axel p-10 pl-0 pb-5">Competition</h1>
-      <h2 className="text-light-slate italic">Terms and Conditions</h2>    
+      <h2 className="text-light-slate italic">Terms and Conditions</h2>
       <p>These Terms and Conditions prevail in the event of any conflict or inconsistency with any other communications, including advertising or promotional materials. Entry/claim instructions are deemed to form part of the terms and conditions and by participating all claimants will be deemed to have accepted and be bound by the terms and conditions. Please retain a copy for your information.</p>
       <p>Eligibility: This prize promotion is open to UK residents (England, Scotland, Wales and Northern Ireland) aged 18 years or over.</p>
       <p>Promotional Period: Please see each individual promotion for its prize pool.</p>
