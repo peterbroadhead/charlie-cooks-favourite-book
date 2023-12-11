@@ -14,7 +14,7 @@ const youngAuthorCompetitionPage = () => (
         </video>
         We will be running a creative writing competition through the run of the tour where young authors can submit short stories, taking inspiration from exerts of the book. <br></br><br></br>
         We will be celebrating entries throughout the year, with winners receiving a book token and selected stories will be published in an anthology at the end of the year.<br></br><br></br>
-        From November 2023, we will be releasing a video each month from characters in the show reading exerts from the book as inspirational and giving more details about the competition and how to enter. These will be released on the Charlie Cook website and social media sites.</p>
+        From November 2023, we will be releasing a video each month from characters in the show reading excerpts from the book as inspirational and giving more details about the competition and how to enter. These will be released on the Charlie Cook website and social media sites.</p>
       <h3><b>The Rules:</b></h3>
       <ul>
         <li>The competition is open to children between the ages of 4 and 15</li>
