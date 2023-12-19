@@ -31,7 +31,7 @@ const youngAuthorCompetitionPage = () => (
   
       </section> 
       <p className="mt-20">
-        <video style={{height:"600px"}} className="float-left inline-block shadow-md rounded-xl mr-5 " autoplay="false" controls>
+        <video style={{height:"600px", width:"340px"}} className="float-left inline-block shadow-md rounded-xl mr-5 " autoplay="false" controls>
           <source src={competitionVideo} type="video/mp4" />
         </video>
         We will be running a creative writing competition through the run of the tour where young authors can submit short stories, taking inspiration from exerts of the book. <br></br><br></br>
