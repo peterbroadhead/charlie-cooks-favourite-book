@@ -9,20 +9,20 @@ const youngAuthorCompetitionPage = () => (
       <h1 className="text-5xl font-axel p-10 pl-0 pb-5">YOUNG AUTHORS COMPETITION</h1>
       <h2 className="text-light-slate italic">The Charlie Cook production is all about the joy of reading, sharing stories and celebrating creativity.</h2>        
   
-      <section>
-        <div className="bg-light-teal p-10 mt-20 rounded-xl shadow-lg mb-20">
+      <section className="mb-40">
+        <div className="bg-light-teal p-10 mb-20 rounded-xl shadow-lg">
           <h3 className="m-0">The Story of Pirates! ARRRRR!</h3>
           <p>This month, Charlie Cook is reading all about pirate adventures, magical islands and discovering hidden treasures. Use these themes to write us your own short story and enter before 29th December.</p>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/TFu0NyINjjY?si=1mtSlz8fpH0bPRgL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div> 
 
-        <div className="bg-light-teal p-10 mt-20 rounded-xl shadow-lg mb-20">
+        <div className="bg-light-teal p-10 mb-20 rounded-xl shadow-lg">
           <h3 className="m-0">The Story of GoldiLocks</h3>
           <p>This month, Charlie Cook is reading all about pirate adventures, magical islands and discovering hidden treasures. Use these themes to write us your own short story and enter before 29th December.</p>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/Pfcdc7KhmW0?si=tQyU5M19b4Nfs__M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>        
         </div>
 
-        <div className="bg-light-teal p-10 mt-20 rounded-xl shadow-lg mb-20">
+        <div className="bg-light-teal p-10 mb-20 rounded-xl shadow-lg">
           <h3 className="m-0">The Story of Sir Percy Pilkington</h3>
           <p>This month, Charlie Cook is reading all about pirate adventures, magical islands and discovering hidden treasures. Use these themes to write us your own short story and enter before 29th December.</p>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/XOGwuUxX3nk?si=NeQKlEFsTOib0IwL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>        
