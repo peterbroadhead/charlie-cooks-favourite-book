@@ -6,7 +6,7 @@ import competitionVideo from "../videos/competition.mp4"
 const youngAuthorCompetitionPage = () => (
   <Layout>
     <div className="text-slate">
-      <h1 className="text-5xl font-axel p-10 pl-0 pb-5">YOUNG AUTHORS COMPETITION.</h1>
+      <h1 className="text-5xl font-axel p-10 pl-0 pb-5">YOUNG AUTHORS COMPETITION</h1>
       <h2 className="text-light-slate italic">The Charlie Cook production is all about the joy of reading, sharing stories and celebrating creativity.</h2>        
   
       <section>
@@ -17,7 +17,7 @@ const youngAuthorCompetitionPage = () => (
         </div> 
       </section> 
       <p>
-        <video style={{height:"600px"}} className="float-left inline-block shadow-md rounded-xl mr-5 " controls>
+        <video style={{height:"600px"}} className="float-left inline-block shadow-md rounded-xl mr-5 " autoplay="" controls>
           <source src={competitionVideo} type="video/mp4" />
         </video>
         We will be running a creative writing competition through the run of the tour where young authors can submit short stories, taking inspiration from exerts of the book. <br></br><br></br>
