@@ -9,7 +9,7 @@ const youngAuthorCompetitionPage = () => (
       <h1 className="text-5xl font-axel p-10 pl-0 pb-5">YOUNG AUTHORS COMPETITION</h1>
       <h2 className="text-light-slate italic">The Charlie Cook production is all about the joy of reading, sharing stories and celebrating creativity.</h2>        
   
-      <section className="mb-40">
+      <section className="mb-10">
         <div className="bg-light-teal p-10 mt-20 rounded-xl shadow-lg">
           <h3 className="m-0">The Story of Pirates! ARRRRR!</h3>
           <p>This month, Charlie Cook is reading all about pirate adventures, magical islands and discovering hidden treasures. Use these themes to write us your own short story and enter before 29th December.</p>
@@ -29,7 +29,7 @@ const youngAuthorCompetitionPage = () => (
         </div>
   
       </section> 
-      <p>
+      <p className="mt-20">
         <video style={{height:"600px"}} className="float-left inline-block shadow-md rounded-xl mr-5 " autoplay="" controls>
           <source src={competitionVideo} type="video/mp4" />
         </video>
