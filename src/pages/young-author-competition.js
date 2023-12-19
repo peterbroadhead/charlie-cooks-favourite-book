@@ -18,13 +18,13 @@ const youngAuthorCompetitionPage = () => (
 
         <div className="bg-light-teal p-10 mb-20 rounded-xl shadow-lg">
           <h3 className="m-0">The Story of GoldiLocks</h3>
-          <p>This month, Charlie Cook is reading all about pirate adventures, magical islands and discovering hidden treasures. Use these themes to write us your own short story and enter before 29th December.</p>
+          <p>Double the fun this December! Izzy is reading all about Goldilocks, a classic story about a girl and three bears. Feeling inspire? Send us your own short story and enter before 29th December.</p>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/Pfcdc7KhmW0?si=tQyU5M19b4Nfs__M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>        
         </div>
 
         <div className="bg-light-teal p-10 mb-20 rounded-xl shadow-lg">
-          <h3 className="m-0">The Story of Sir Percy Pilkington</h3>
-          <p>This month, Charlie Cook is reading all about pirate adventures, magical islands and discovering hidden treasures. Use these themes to write us your own short story and enter before 29th December.</p>
+          <h3 className="m-0">The Story of Sir Percy Pilkington (Released Jan 3)</h3>
+          <p>Coming soon...</p>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/XOGwuUxX3nk?si=NeQKlEFsTOib0IwL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>        
         </div>
   
