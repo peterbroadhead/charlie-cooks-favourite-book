@@ -4,6 +4,7 @@ import Seo from "../components/seo"
 import competitionVideo from "../videos/competition.mp4"
 
 const youngAuthorCompetitionPage = () => (
+  
   <Layout>
     <div className="text-slate">
       <h1 className="text-5xl font-axel p-10 pl-0 pb-5">YOUNG AUTHORS COMPETITION</h1>
