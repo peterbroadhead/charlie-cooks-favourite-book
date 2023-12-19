@@ -10,7 +10,7 @@ const youngAuthorCompetitionPage = () => (
       <h2 className="text-light-slate italic">The Charlie Cook production is all about the joy of reading, sharing stories and celebrating creativity.</h2>        
   
       <section>
-        <div>
+        <div className="bg-light-teal p-10 mt-20 rounded-xl shadow-lg">
           <h3>The Story of Pirates! ARRRRR!</h3>
           <p>This month, Charlie Cook is reading all about pirate adventures, magical islands and discovering hidden treasures. Use these themes to write us your own short story and enter before 29th December.</p>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/TFu0NyINjjY?si=1mtSlz8fpH0bPRgL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
