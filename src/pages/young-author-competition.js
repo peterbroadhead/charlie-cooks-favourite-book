@@ -9,14 +9,27 @@ const youngAuthorCompetitionPage = () => (
     <div className="text-slate">
       <h1 className="text-5xl font-axel p-10 pl-0 pb-5">YOUNG AUTHORS COMPETITION</h1>
       <h2 className="text-light-slate italic">The Charlie Cook production is all about the joy of reading, sharing stories and celebrating creativity.</h2>        
+      <h3>Calling all young authors. </h3>
+      <p>Each month we will be running a creative writing competition asking writers to send short stories inspired by the CHARLIE COOK'S FAVOURITE BOOK stories.<br></br><br></br>
+      Below you will see this month's story. Each month we will announce winners who will receive a book token and will have their story published at the end of the year. <br></br><br></br>
+      Rules and entry details can be found at the bottom of this page. <br></br><br></br>
+      Please email your entry as a PDF or Word document or you can post your entry to: Little Angel Theatre, 14 Dagmar Passage, London N1 2DN or email <a href="mailto:CharlieCook@littleangeltheatre.com">CharlieCook@littleangeltheatre.com</a> along with your name, full postal address and email.</p>
   
       <section className="mb-10">
-        <div className="bg-light-teal p-10 mt-20 rounded-xl shadow-lg">
-          <h3 className="m-0">The Story of Pirates! ARRRRR!</h3>
-          <p>This month, Charlie Cook is reading all about pirate adventures, magical islands and discovering hidden treasures. Use these themes to write us your own short story and enter before 29th December.</p>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/TFu0NyINjjY?si=1mtSlz8fpH0bPRgL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div> 
 
+        <div className="bg-light-teal p-10 mt-20 rounded-xl shadow-lg">
+            <h3 className="m-0">The Story of Rowena Reddalot (Released Feb 1)</h3>
+            <p>Coming soon...</p>
+            {/*<p>This frog loves books! There simply isn't any book she hasn't read. We'd love to hear your story inspired by the power of reading or why not write a story about frogs? Send your story in no later than 25th Feb for your chance to win!</p>*/}
+            {/*<iframe width="560" height="315" src="https://www.youtube.com/watch?v=CJf89mS7Nu8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>*/}        
+        </div>
+
+        <div className="bg-light-teal p-10 mt-20 rounded-xl shadow-lg">
+            <h3 className="m-0">The Story of Sir Percy Pilkington</h3>
+            <p>Get your creative writing hats on this January! Charlie's Mum is reading all about Sir Percy Pilkington and the Dragon, a delightful tale about a knight who wasn't quite ready for the fight with the dragon and so he comes up with a plan to delay as much as possible - through telling jokes. Send us your own short story and enter before 26th January.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/XOGwuUxX3nk?si=NeQKlEFsTOib0IwL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>        
+        </div>
+      
         <div className="bg-light-teal p-10 mt-20 rounded-xl shadow-lg">
           <h3 className="m-0">The Story of GoldiLocks</h3>
           <p>Double the fun this December! Izzy is reading all about Goldilocks, a classic story about a girl and three bears. Feeling inspire? Send us your own short story and enter before 29th December.</p>
@@ -24,10 +37,10 @@ const youngAuthorCompetitionPage = () => (
         </div>
 
         <div className="bg-light-teal p-10 mt-20 rounded-xl shadow-lg">
-          <h3 className="m-0">The Story of Sir Percy Pilkington (Released Jan 3)</h3>
-          <p>Coming soon...</p>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/XOGwuUxX3nk?si=NeQKlEFsTOib0IwL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>        
-        </div>
+          <h3 className="m-0">The Story of Pirates! ARRRRR!</h3>
+          <p>This month, Charlie Cook is reading all about pirate adventures, magical islands and discovering hidden treasures. Use these themes to write us your own short story and enter before 29th December.</p>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/TFu0NyINjjY?si=1mtSlz8fpH0bPRgL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div> 
   
       </section> 
       <p className="mt-20">

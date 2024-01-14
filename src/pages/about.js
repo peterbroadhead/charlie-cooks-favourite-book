@@ -13,6 +13,13 @@ const AboutPage = () => (
       <p>Come and delve into a range of books with Charlie Cook, brought to life with puppetry and enchanting songs, and perhaps you will be able to help his sister discover the wonderful world inside a book…</p>
       <div className="bg-light-teal p-5 mt-20 rounded-xl">
         <h3 className="m-0">A Little Angel Theatre, Lowry and Rose Theatre co-production</h3>
+        <h3 className="mt-5">Cast</h3>
+        <ul>
+          <li>Pierre Hanson-Johnson - Charlie</li>
+          <li>Georgie Samuels - Mum</li>
+          <li>Freya Stephenson - Izzy</li>
+          <li>Olivia Presto - Stage Manager</li>
+        </ul>
         <h3 className="mt-5">Credits</h3>
         <ul>
           <li>Adapted by Barb Jungr and Samantha Lane</li>
