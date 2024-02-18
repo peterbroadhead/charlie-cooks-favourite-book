@@ -15,13 +15,13 @@ function showCard(location, theatre, startDate, endDate, ticketLink) {
     </div>
 }
 
-function noShowsCard() {
-    return <div className="bg-light-teal p-5 rounded-xl flex flex-wrap font-serif shadow-xl mb-10" >
-        <h3 className="basis-full text-4xl font-axel text-teal m-0 flex flex-wrap sm:relative sm:items-baseline">
-            <span className="basis-full mb-5 mr-5 sm:basis-auto sm:mb-0">Coming soon...</span>                 
-        </h3>
-    </div>
-}
+// function noShowsCard() {
+//     return <div className="bg-light-teal p-5 rounded-xl flex flex-wrap font-serif shadow-xl mb-10" >
+//         <h3 className="basis-full text-4xl font-axel text-teal m-0 flex flex-wrap sm:relative sm:items-baseline">
+//             <span className="basis-full mb-5 mr-5 sm:basis-auto sm:mb-0">Coming soon...</span>                 
+//         </h3>
+//     </div>
+// }
 
 const Tour = () => {
     const data = useStaticQuery(graphql`
@@ -71,7 +71,7 @@ const Tour = () => {
                         </div>
                     }
                 }
-                return noShowsCard();
+                //return noShowsCard();
              })}
         </div>
     )
