@@ -20,19 +20,18 @@ const youngAuthorCompetitionPage = () => (
         <div className="bg-light-teal p-10 mt-20 rounded-xl shadow-lg">
             <h3 className="m-0">The Story of The Girl and the Flying Saucer</h3>
             <p>Coming soon...</p>            
-            <iframe width="560" height="315" src="https://youtu.be/WTqyumkaJjs?si=7HjWa2zI3r9UAZzp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
 
         <div className="bg-light-teal p-10 mt-20 rounded-xl shadow-lg">
             <h3 className="m-0">Enter our young author’s competition</h3>
             <p>We’ve got another chance for you to enter our young author’s competition. This month, we’re looking for stories inspired by this tale of a large oak tree filled with different kinds of birds. Submit your entries by 31 March</p>            
-            <iframe width="560" height="315" src="https://www.youtube.com/watch?v=mCmgT6x_ZoY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/mCmgT6x_ZoY?si=jv2i4V9mkmv6i9a0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            
         </div>
 
         <div className="bg-light-teal p-10 mt-20 rounded-xl shadow-lg">
             <h3 className="m-0">The Story of Rowena Reddalot</h3>
             <p>Rowena Reddalot is a very well-read frog! One day, she jumps upon a lily pad and then onto a log. She comes across a library in the brook but she has read all the books there until she comes across one particular book... Are you inspired by Rowena? Write your own story inspired by her tale. Submit entries by 25 Feb</p>            
-            <iframe width="560" height="315" src="https://www.youtube.com/watch?v=CJf89mS7Nu8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/CJf89mS7Nu8?si=kjz866AsC2FG4y4j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            
         </div>
 
         <div className="bg-light-teal p-10 mt-20 rounded-xl shadow-lg">
