@@ -24,10 +24,14 @@ const Competition = () => {
     return(        
         <div>           
             {comp.allContentfulCompetition.edges.map((edge) => {
-                return <div key={edge.node.id} className="bg-light-teal p-10 mt-20 rounded-xl shadow-lg">
+                if (edge.node.embedCode === null) return <div key={edge.node.id} className="bg-light-teal p-10 mt-20 rounded-xl shadow-lg">
                     <h3 className="m-0">{edge.node.title}</h3>
                     <div>{renderRichText(edge.node.description)}</div>
-                    <div dangerouslySetInnerHTML={{__html: edge.node.embedCode.embedCode}}></div>            
+                </div>
+                else return <div key={edge.node.id} className="bg-light-teal p-10 mt-20 rounded-xl shadow-lg">
+                    <h3 className="m-0">{edge.node.title}</h3>
+                    <div>{renderRichText(edge.node.description)}</div>
+                    <div dangerouslySetInnerHTML={{__html: edge.node.embedCode.embedCode}}></div>                            
                 </div>
             })}
         </div>
