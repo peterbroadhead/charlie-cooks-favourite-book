@@ -56,14 +56,13 @@ const CastPage = () => (
           <Link className="flex" to="https://www.twitter.com/fizz_freya/" target="_blank">
             <FaTwitterSquare size={50}/>
           </Link>
-        </p>
-      </div>*/}
+        </p>*/}
+      </div>
       <div className="bg-light-teal p-10 mt-20 rounded-xl shadow-lg">
         <StaticImage src="../images/charliecook-walk.png" height={200} className="mb-5 float-left mr-10 rounded-lg" alt="freya Headshot"/>
         <h3 className="m-0 font-axel text-teal text-2xl">Olivia Presto – Stage Manager</h3>
         <p>Olivia Presto is a London based stage manager. She trained at the University of Hull studying Drama and Theatre Practice, before completing an internship at the Royal Shakespeare Company. She has been working on a freelance basis for Little Angel for the last year. Her other recent credits include Holby City, Pinocchio and Count Arthur Strong’s UK Tour.</p>              
       </div>
-
     </div>
   </Layout>
 )
