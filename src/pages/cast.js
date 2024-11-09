@@ -42,12 +42,14 @@ const CastPage = () => (
       </div>
 
       <div className="bg-light-teal p-10 mt-20 rounded-xl shadow-lg">
-        <StaticImage src="../images/Freya.jpg" height={200} className="mb-5 float-left mr-10 rounded-lg" alt="freya Headshot"/>
-        <h3 className="m-0 font-axel text-teal text-2xl">Freya Stephenson – Izzy</h3>
-        <p>Freya is a performer from Kent who loves cups of tea and reading! </p>
-        <p>Training: BA Musical Theatre Performance, University of Chichester.</p>
-        <p>Theatre includes: Stranger Sings! (The Vaults); Love’s Labour’s Lost, The School for Scandal (Changeling Theatre) and Dirty Rotten Scoundrels (The Alexandra Theatre).</p>
-        <p className="flex">
+        <StaticImage src="../images/jazmine.jpeg" height={200} className="mb-5 float-left mr-10 rounded-lg" alt="Jazmine Headshot"/>
+        <h3 className="m-0 font-axel text-teal text-2xl">Jazmine Wilkinson – Izzy</h3>
+        <p>Jazmine trained at Rose Bruford College.</p>
+        <p>Theatre Credits include: Drafters (Jazz Central, New York), Shadow Games (UK Tour), Gilgamesh (White Bear Theatre), Christmas at Kew (open air theatre at Kew Gardens), Webster in Shakespeare in Love (Theatre Royal Bath & UK Tour), The Border (UK Tour), Juliet in Romeo & Juliet (The Orange Tree Theatre), 3rd Witch in MacBeth (The Orange Tree Theatre), Grandad Anansi (UK Tour), The Pixie and the Pudding (Little Angel Studios), The Slightly Annoying Elephant (Edinburgh Fringe Festival), The Everywhere Bear (Little Angel Theatre), The Curious Rat (Little Angel Studios), Endz (Lyric Hammersmith Scratch Night)</p>
+        <p>Screen Credits include: The Sermon, Like Brother, Like Sister, Bad Friends, The Veins in her Eyelids, The Train, The Art of Dating, Popped, The Date, The Left Trail, Little Bell and the Moon, Lead in Pray by Tora Kamanja (music video), Joe Lycett’s Got Your Back (Channel 4)</p>
+        <p>Other Notable Credits include: Still Photography for White Claw and Dovetailed</p>
+        <p>Charlie Cook’s Favourite Book is Jazmine’s West End Debut.</p>
+        {/* <p className="flex">
           <Link className="flex" to="https://www.instagram.com/freyaxstephenson/" target="_blank">
             <FaInstagramSquare size={50}/>
           </Link>
@@ -55,8 +57,7 @@ const CastPage = () => (
             <FaTwitterSquare size={50}/>
           </Link>
         </p>
-      </div>
-
+      </div>*/}
       <div className="bg-light-teal p-10 mt-20 rounded-xl shadow-lg">
         <StaticImage src="../images/charliecook-walk.png" height={200} className="mb-5 float-left mr-10 rounded-lg" alt="freya Headshot"/>
         <h3 className="m-0 font-axel text-teal text-2xl">Olivia Presto – Stage Manager</h3>
