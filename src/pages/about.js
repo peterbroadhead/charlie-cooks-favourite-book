@@ -43,6 +43,11 @@ const AboutPage = () => (
           <li><Link to="https://rvhf.org/" target="_blank">Royal Victoria Hall</Link></li>        
         </ul>
         <div className="p-10 bg-white inline-block mt-10 rounded-md shadow-lg">
+          <Link to="https://www.artscouncil.org.uk/" target="_blank">
+            <StaticImage src="../images/grant_png_white.png" height={100} alt="Arts Council England, logo" />
+          </Link>
+        </div>
+        <div className="p-10 bg-white inline-block mt-10 rounded-md shadow-lg">
           <Link to="https://rvhf.org/" target="_blank">
             <StaticImage src="../images/RVH.jpg" height={100} alt="Charlie Cooks Favourite Book" />
           </Link>
