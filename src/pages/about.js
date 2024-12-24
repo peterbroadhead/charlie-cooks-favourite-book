@@ -42,7 +42,7 @@ const AboutPage = () => (
           <li><Link to="https://unitytheatre.org.uk/" target="_blank">Unity Theatre Trust</Link></li>   
           <li><Link to="https://rvhf.org/" target="_blank">Royal Victoria Hall</Link></li>        
         </ul>
-        <div className="p-10 bg-white inline-block mt-10 rounded-md shadow-lg">
+        <div className="p-10 bg-slate w-full inline-block mt-10 rounded-md shadow-lg">
           <Link to="https://www.artscouncil.org.uk/" target="_blank">
             <StaticImage src="../images/grant_png_white.png" height={100} alt="Arts Council England, logo" />
           </Link>
