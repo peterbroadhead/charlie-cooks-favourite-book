@@ -17,7 +17,7 @@ const AboutPage = () => (
         <ul>
           <li>Pierre Hanson-Johnson - Charlie</li>
           <li>Georgie Samuels - Mum</li>
-          <li>Freya Stephenson - Izzy</li>
+          <li>Jazmine Wilkinson - Izzy</li>
           <li>Olivia Presto - Stage Manager</li>
         </ul>
         <h3 className="mt-5">Credits</h3>
